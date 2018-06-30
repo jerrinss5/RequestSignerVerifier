@@ -86,11 +86,8 @@ class Server:
         # getting the client request
         client_request = client_connection_socket.recv(1024)
 
-        # cto dev env
-        # apigw_host = "uyo2ogdp2f.execute-api.us-east-1.amazonaws.com"
-
-        # prod env
-        apigw_host = "trbtzqifbe.execute-api.us-east-1.amazonaws.com"
+        #  env
+        apigw_host = "<value>.execute-api.us-east-1.amazonaws.com"
         apigw_port = 443
 
         # replacing the localhost hostname to the hostname which is being called
